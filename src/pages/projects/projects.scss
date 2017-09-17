@@ -1,0 +1,18 @@
+page-projects {
+    .project-card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 3px 3px 5px black;
+    }
+    .project-card:hover {
+        background-color: lightblue;
+    }
+    .project-media {
+        height: 150px;
+        width: 150px;
+    }
+    .project-label > a {
+        text-decoration: none;
+        color: blue;
+    }
+}

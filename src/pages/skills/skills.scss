@@ -1,0 +1,18 @@
+page-skills {
+    .skill-card {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 3px 3px 5px black;
+    }
+    .skill-card:hover {
+        background-color: lightblue;
+    }
+    .skill-media {
+        height: 150px;
+        width: 150px;
+    }
+    .skill-label > a {
+        text-decoration: none;
+        color: blue;
+    }
+}

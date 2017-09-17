@@ -1,0 +1,11 @@
+<ion-content class="page-text" padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-3> <img src="{{skill.icon}}" alt=""></ion-col>
+      <ion-col col-9 style="padding-top: 12px;">
+        <h4>{{skill.label}}</h4>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div [innerHTML]="skill.description"></div>
+</ion-content>
