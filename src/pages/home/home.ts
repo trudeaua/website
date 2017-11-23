@@ -10,7 +10,7 @@ export class HomePage {
   isMobile: boolean;
   screenX: number;
   constructor(public navCtrl: NavController, private dataSharing: DataSharing) {
-    this.isMobile = dataSharing.getIsMobile();
-    this.screenX = dataSharing.getScreenX();
+    this.isMobile = this.dataSharing.getIsMobile();
+    this.screenX = this.dataSharing.getScreenX();
   }
 }

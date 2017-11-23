@@ -13,12 +13,6 @@ export class ContactPage {
   isMobile: boolean;
   constructor(public navCtrl: NavController, private dataSharing: DataSharing, public navParams: NavParams) {
     this.isMobile = this.dataSharing.getIsMobile();
-    this.screenX = dataSharing.getScreenX();
-
+    this.screenX = this.dataSharing.getScreenX();
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ContactPage');
-  }
-
 }

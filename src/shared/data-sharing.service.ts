@@ -70,6 +70,7 @@ export class DataSharing {
                 icon: "http://it-school.com.ua/img/pics/javascript-logo.png",
                 label: "Javascript",
                 description: ` <ul>
+                <li>Constantly use JS with web development</li>
                 <li>Followed a course to create a brickbreaker-like game, as well as a Pong clone</li>
                 <li>Mostly self taught</li>
               </ul>`,
@@ -101,7 +102,7 @@ export class DataSharing {
         this.projects = [
             {
                 id: 3,
-                icon: '../assets/imgs/SS_icon.PNG',
+                icon: './assets/imgs/SS_icon.PNG',
                 label: 'Speed Snap',
                 description: `
                 <h6>July 2017 - Present</h6>
@@ -117,7 +118,7 @@ export class DataSharing {
             },
             {
                 id: 1,
-                icon: '../assets/imgs/LB_icon.PNG',
+                icon: './assets/imgs/LB_icon.PNG',
                 label: 'Life Battery',
                 description: `<h6>August 2017 - August 2017</h6>
                 <ul>
@@ -129,7 +130,7 @@ export class DataSharing {
             },
             {
                 id: 2,
-                icon: '../assets/imgs/TG_icon.PNG',
+                icon: './assets/imgs/TG_icon.PNG',
                 label: 'Tour Guide -- Android App',
                 description: `<h6>May 2017 - August 2017</h6>
                 <ul>
@@ -143,7 +144,7 @@ export class DataSharing {
             },
             {
                 id: 4,
-                icon: '../assets/imgs/TG_icon.PNG',
+                icon: './assets/imgs/TG_icon.PNG',
                 label: 'Tour Guide -- Java Application',
                 description: `<h6>January 2017 - April 2017</h6>
                 <ul>

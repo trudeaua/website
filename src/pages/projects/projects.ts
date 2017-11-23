@@ -53,12 +53,6 @@ export class ProjectsPage {
     this.hoverProjectId = null;
   }
   showDescriptionModal(skill) {
-    // if (!this.viewingDescription) {
-    //   this.hoverProjectId = skillId;
-    // }
-    // else {
-    //   this.hoverProjectId = null;
-    // }
     let popover = this.popoverCtrl.create(DescriptionPage, { skill: skill });
     popover.present();
   }
